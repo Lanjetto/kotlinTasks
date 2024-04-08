@@ -26,7 +26,7 @@ fun cmToInch(cm: Int): Double {
 №4 пропишите логику функции которая складывает 2 числа и возвращает ответ типа Float
 для сложения воспользуйтесь функцией plus, а не оператором
 
-```
+```kotlin
 fun addTwoDigit(a: Number, b:Number):Float {
     val ans = 0f
 
@@ -35,14 +35,16 @@ fun addTwoDigit(a: Number, b:Number):Float {
 ```
 
 №5 сравнить числа передаваемые в параметрах функции
-```
+
+```kotlin
 fun numbersComparing(a:Float, b:Double) {
     println()
 }
 ```
 
 №6 определить входит ли переданный символ в список гласных
-```
+
+```kotlin
 fun isVowel(c:Char): Boolean {
     val vowels = listOf('a', 'e', 'i', 'o', 'u')
 
