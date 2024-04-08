@@ -14,29 +14,38 @@
 
 №3 пропишите логику функции, которая переводит сантиметры в дюймы
 1cm = 2.54 inch
-`fun cmToInch(cm: Int): Double {
+
+``` kotlin
+fun cmToInch(cm: Int): Double {
     val inch = 0.0
 
     return inch
-}`
+}
+```
 
 №4 пропишите логику функции которая складывает 2 числа и возвращает ответ типа Float
 для сложения воспользуйтесь функцией plus, а не оператором
 
-```fun addTwoDigit(a: Number, b:Number):Float {
+```
+fun addTwoDigit(a: Number, b:Number):Float {
     val ans = 0f
 
     return ans
-}```
+}
+```
 
 №5 сравнить числа передаваемые в параметрах функции
-```fun numbersComparing(a:Float, b:Double) {
+```
+fun numbersComparing(a:Float, b:Double) {
     println()
-}```
+}
+```
 
 №6 определить входит ли переданный символ в список гласных
-```fun isVowel(c:Char): Boolean {
+```
+fun isVowel(c:Char): Boolean {
     val vowels = listOf('a', 'e', 'i', 'o', 'u')
 
     return false
-}```
+}
+```
