@@ -1,4 +1,4 @@
-#Практика Kotlin fundamentals. День 2
+# Практика Kotlin fundamentals. День 2
 ## Практика 1
 
 1.	Класс Phone.
